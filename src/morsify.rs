@@ -4,14 +4,11 @@
  */
 
 
-use std::str::Utf8Error;
-
 use std::io;
-use std::io::Write;
-
 use std::thread;
+use std::io::Write;
+use std::str::Utf8Error;
 use std::time::Duration;
-
 use rodio::{Sink, Source};
 
 const MAX_CODE_LENGTH: usize = 5;
